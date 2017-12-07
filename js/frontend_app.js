@@ -15,7 +15,7 @@ function do_my_slider($scope) {
         $scope.panel_2 = true;
     }
     $scope.slide_panel_2 = function () {
-        console.log('sliding one out of the way');
+        console.log('sliding two out of the way');
         $scope.panel_2 = false;
         $scope.panel_3 = true;
     }
